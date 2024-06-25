@@ -570,6 +570,10 @@ video {
   height: 83.333333%;
 }
 
+.h-1\/5 {
+  height: 20%;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -580,6 +584,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-5\/6 {
+  width: 83.333333%;
 }
 
 .flex-row {
@@ -637,6 +645,11 @@ video {
 .bg-amber-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(254 243 199 / var(--tw-bg-opacity));
+}
+
+.bg-pink-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 207 232 / var(--tw-bg-opacity));
 }
 
 .py-5 {
