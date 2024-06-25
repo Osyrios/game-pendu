@@ -1,5 +1,5 @@
-import { Body } from "./componants/Body"
-import { Title } from "./componants/Title"
+import { Body } from "./sections/Body"
+import { Title } from "./sections/Title"
 
 
 function App() {
