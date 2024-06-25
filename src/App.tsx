@@ -1,19 +1,13 @@
+import { Body } from "./componants/Body"
+import { Title } from "./componants/Title"
 
 
 function App() {
 
-  function name(a:string, b:string) {
-    let nameString:string = a + ' ' + b
-    console.log(nameString) 
-  }
-  
-  name('yassine', 'test')
-
-  return (
-    <>
-      <h1></h1>
-    </>
-  )
+  return <div className="bg-blue-600 h-screen">
+          <Title />
+          <Body/>
+  </div>
 }
 
 export default App
