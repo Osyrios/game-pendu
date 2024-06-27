@@ -1,7 +1,6 @@
-/*
-export function getNewWord(){
-  const guess = fetch("https://trouve-mot.fr/api/random")
-    .then((response) => response.json())
-    .then((words) => words.name)
-  return guess
-}*/
+
+export async function getRandomWord() {
+  const call = await fetch("https://trouve-mot.fr/api/random")
+  const word = await call.json()
+  return console.log(word[0].name)
+}
