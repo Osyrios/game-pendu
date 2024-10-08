@@ -574,6 +574,10 @@ video {
   height: 25%;
 }
 
+.h-1\/5 {
+  height: 20%;
+}
+
 .h-5\/6 {
   height: 83.333333%;
 }
@@ -612,6 +616,10 @@ video {
 
 .justify-start {
   justify-content: flex-start;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-between {
@@ -693,6 +701,11 @@ video {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
 }
 
 .text-lg {
